@@ -1,0 +1,66 @@
+/**
+ * Variables Stylesheet.
+ *
+ * Implements default styling variables for all media on the "Spirit of Football Denmark" website.
+ *
+ * @package The_Ball_v2_Denmark
+ */
+
+:root {
+
+	/* Header, Footer, etc. */
+	--sof-purple: #2d5f66;
+	--sof-header-stripe-image: url("../images/textures/stripe-green.png");
+
+	/* Background. */
+	--sof-purple-light: #1A3A2A;
+
+	/* Main Menu Background. */
+	--sof-purple-menu: rgb(26 76 28 / 80%);
+
+	/* Events Submenu Background. */
+	--sof-purple-lighter: #3a7029;
+
+	/* Comments Area Background. */
+	--sof-background-comments: #438230;
+
+	/* Calendar Header Background. */
+	--sof-calendar-header: #277228;
+	/* Calendar Border. */
+	--sof-calendar-border: var(--sof-green-bright);
+
+	/* Team Area Backgrounds. */
+	/* Vorstand Area Background. */
+	--sof-background-people-vorstand: #3a7029;
+	/* Back Office Area Background. */
+	--sof-background-people-staff: #438230;
+	/* Project Managers Area Background. */
+	--sof-background-people-team: #4d9537;
+	/* Supporters Area Background. */
+	--sof-background-people-supporters: #357179;
+	--sof-background-people-supporters: #3d818a;
+
+	/* CiviCRM. */
+
+	/* CiviCRM General. */
+	--sof-crm-text-color: #fff;
+	--sof-crm-expand-border: 1px solid #c9d5d7;
+	--sof-crm-header-dark-bg-color: #1d3715;
+
+	/* CiviCRM Messages & Alerts. */
+	--sof-crm-messages-bg-color: var(--sof-crm-header-dark-bg-color);
+	--sof-crm-messages-border: none;
+
+	/* CiviCRM Forms. */
+	--sof-crm-form-fieldset-bg-color: #396e2b;
+	--sof-crm-form-fieldset-border: 1px solid #fff;
+	--sof-crm-form-fieldset-border: none;
+	--sof-crm-form-fieldset-padding: 1rem;
+	--sof-crm-form-label-color: #fff;
+	--sof-crm-form-text-color: #fff;
+	--sof-crm-form-button-color: var(--crm-c-primary-text);
+	--sof-crm-form-select2-color: #000;
+	--sof-crm-form-required-color: #000;
+	--sof-crm-form-required-focus-color: #111;
+
+}
