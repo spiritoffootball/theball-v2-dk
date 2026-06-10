@@ -27,6 +27,19 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*--------------------------------------------------------------
+## Header style overrides
+--------------------------------------------------------------*/
+
+#primary .has-post-thumbnail .entry-header h1,
+#primary .has-post-thumbnail .entry-header h2 {
+	font-family: serif;
+	color: var(--sof-color-sand);
+/* 	text-shadow: 0 0 10px rgb(10 9 52 / 75%); */
+}
+
+
+
+/*--------------------------------------------------------------
 ## Footer style overrides
 --------------------------------------------------------------*/
 
