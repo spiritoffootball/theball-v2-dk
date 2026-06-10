@@ -90,7 +90,7 @@ defined( 'ABSPATH' ) || exit;
 
 			<div class="site-info">
 				<?php /* translators: 1: The opening anchor tag, 2: The closing anchor tag, 3: The current year. */ ?>
-				<p><?php printf( esc_html__( 'Website content &copy; %1$sSpirit of Football Denmark%2$s %3$s. All rights reserved.', 'theball-v2-dk' ), '<a href="https://spiritoffootball.dk">', '</a>', esc_html( gmdate( 'Y' ) ) ); ?></p>
+				<p><?php printf( esc_html__( '&copy; %1$sSpirit of Football Denmark%2$s %3$s. All rights reserved.', 'theball-v2-dk' ), '<a href="https://spiritoffootball.dk">', '</a>', esc_html( gmdate( 'Y' ) ) ); ?></p>
 				<p><?php esc_html_e( 'Spirit of Football Denmark CVR: 46503953', 'theball-v2-dk' ); ?></p>
 			</div><!-- .site-info -->
 
