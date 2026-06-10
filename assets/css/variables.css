@@ -25,6 +25,11 @@
 	--sof-text-heading-transform: none;
 	--sof-text-heading-font: serif;
 
+	/* "Ball Stats" blocks. */
+	--sof-ball-stat-bg-color: rgba(82, 183, 136, 0.1);
+	--sof-ball-stat-border-color: rgba(82, 183, 136, 0.18);
+	--sof-ball-stat-text-color: rgba(255, 255, 255, 0.5);
+
 	/* Events Submenu Background. */
 	--sof-purple-lighter: #3a7029;
 
