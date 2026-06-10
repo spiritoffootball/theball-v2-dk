@@ -10,13 +10,20 @@
 
 	/* Header, Footer, etc. */
 	--sof-purple: #2d5f66;
-	--sof-header-stripe-image: url("../images/textures/stripe-green.png");
+	--sof-header-stripe-image: url("../images/textures/stripe-grass-bright.png");
+	--sof-header-footer: #1C2B22;
 
 	/* Background. */
 	--sof-purple-light: #1A3A2A;
 
 	/* Main Menu Background. */
-	--sof-purple-menu: rgb(26 76 28 / 80%);
+	--sof-purple-menu: rgba(26, 58, 42, 0.88);
+
+	/* Headings in "lime". */
+	--sof-text-heading: #52b788;
+	/* Headings not transformed. */
+	--sof-text-heading-transform: none;
+	--sof-text-heading-font: serif;
 
 	/* Events Submenu Background. */
 	--sof-purple-lighter: #3a7029;
