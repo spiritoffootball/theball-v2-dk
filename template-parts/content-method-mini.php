@@ -15,6 +15,7 @@ defined( 'ABSPATH' ) || exit;
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="entry-content">
 		<?php /* the_title( '<h3 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h3>' ); */ ?>
+		<div class="loop-step-num"><?php echo esc_html( $args['method_counter'] ); ?></div>
 		<?php the_title( '<h3 class="entry-title">', '</h3>' ); ?>
 		<?php $page_subheading = get_field( 'page_subheading' ); ?>
 		<?php if ( ! empty( $page_subheading ) ) : ?>

@@ -127,6 +127,23 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 2rem 0 3.5rem;
 }
 
+/* Loop posts counter. */
+.loop-include .loop-step-num {
+	width: 2.4rem;
+	height: 2.4rem;
+	background: var(--sof-color-lime);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: serif;
+	font-size: 1.15rem;
+	font-weight: 900;
+	color: var(--sof-color-forest);
+	margin-bottom: 1.4rem;
+}
+
+
 
 
 

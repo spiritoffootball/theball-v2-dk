@@ -51,13 +51,22 @@ if ( $loop_parent instanceof WP_Post ) :
 				<div class="loop-include-posts">
 					<?php
 
+					// Init template args.
+					$args = [];
+
+					// Start counter for mini template.
+					$args['method_counter'] = 1;
+
 					// Start the loop.
 					while ( $loop_include->have_posts() ) :
 
 						$loop_include->the_post();
 
 						// Get mini template.
-						get_template_part( 'template-parts/content-method-mini' );
+						get_template_part( 'template-parts/content', 'method-mini', $args );
+
+						// Bump counter.
+						$args['method_counter']++;
 
 					endwhile;
 
