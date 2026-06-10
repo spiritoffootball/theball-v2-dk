@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: none;
 }
 
+#primary .entry-content h2 {
+	font-size: 2rem;
+}
+
 
 
 /*--------------------------------------------------------------
@@ -70,6 +74,316 @@ h1, h2, h3, h4, h5, h6 {
 	color: var(--sof-ball-stat-text-color);
 	margin: 0;
 	margin-top: 0.2rem;
+}
+
+
+
+/*--------------------------------------------------------------
+## Common Loop styles
+--------------------------------------------------------------*/
+
+.loop-include .loop-include-header {
+	text-align: left;
+	text-transform: none;
+}
+
+.loop-include .loop-include-header div {
+	margin-right: 50%;
+}
+
+.loop-include h3.loop-include-title {
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	margin-top: 3rem;
+	margin-bottom: 0.5rem;
+	color: var(--sof-color-lime);
+}
+
+.loop-include h3.loop-include-title::before {
+	content: '';
+	display: inline-block;
+	width: 1.5rem;
+	height: 1.5px;
+	background: var(--sof-color-lime);
+	margin-right: 0.5rem;
+	vertical-align: middle;
+}
+
+.loop-include h2.loop-include-title {
+	font-family: var(--sof-text-heading-font);
+	font-size: 2rem;
+	color: var(--sof-text-heading);
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.loop-include .loop-include-header p {
+	margin-top: 0.2rem;
+	font-size: 1.1rem;
+}
+
+/* Loop posts container. */
+.loop-include .loop-include-posts {
+	margin: 2rem 0 3.5rem;
+}
+
+
+
+
+/*--------------------------------------------------------------
+## Missions Loop styles
+--------------------------------------------------------------*/
+
+#missions {
+	background-color: var(--sof-mission-card-container-bg-color);
+}
+
+/* Loop post. */
+#missions.loop-include .hentry {
+	background-color: var(--sof-mission-card-bg-color);
+	border-radius: 0.6rem;
+	overflow: hidden;
+	border: 1px solid var(--sof-mission-card-border-color);
+	padding: 1.5rem;
+}
+
+#missions.loop-include .entry-content {
+	margin: 0;
+	padding: 1rem;
+	padding-top: 0.5rem;
+}
+
+#missions.loop-include .entry-content h3 {
+	margin: 0;
+	font-size: 1.4rem;
+}
+
+#missions.loop-include .entry-content h3 a {
+	color: var(--sof-mission-card-heading-color);
+	text-decoration: none;
+}
+
+#missions.loop-include .entry-content p {
+	margin: 0;
+	margin-top: 0.5rem;
+}
+
+#missions.loop-include .entry-content .loop-page-subheading p {
+	color: var(--sof-mission-card-subheading-color);
+	font-size: 0.9rem;
+	font-style: italic;
+	margin-bottom: 1.2rem;
+}
+
+#missions.loop-include .entry-content .loop-page-sub-excerpt p {
+	color: var(--sof-mission-card-subheading-color);
+	font-size: 0.9rem;
+	font-style: italic;
+}
+
+
+
+/*--------------------------------------------------------------
+## Activities Loop styles
+--------------------------------------------------------------*/
+
+#activities {
+	background-color: var(--sof-activity-card-container-bg-color);
+}
+
+/* Loop post. */
+#activities.loop-include .hentry {
+	border-radius: 0.6rem;
+	overflow: hidden;
+	border: 1px solid var(--sof-activity-card-border-color);
+	background-color: var(--sof-activity-card-bg-color);
+}
+
+#activities.loop-include .activity-feature-image a {
+	line-height: 0;
+	display: block;
+}
+
+#activities.loop-include .entry-content {
+	margin: 0;
+	padding: 1rem;
+	padding-top: 0.5rem;
+}
+
+#activities.loop-include .entry-content h3 {
+	margin: 0;
+	font-size: 1.4rem;
+}
+
+#activities.loop-include .entry-content h3 a {
+	color: var(--sof-activity-card-heading-color);
+	text-decoration: none;
+}
+
+#activities.loop-include .entry-content p {
+	margin: 0;
+	margin-top: 0.5rem;
+}
+
+
+
+/*--------------------------------------------------------------
+## Methods Loop styles
+--------------------------------------------------------------*/
+
+#methods {
+	background-color: var(--sof-method-card-container-bg-color);
+}
+
+/* Loop post. */
+#methods.loop-include .hentry {
+	background-color: var(--sof-method-card-bg-color);
+	border-radius: 0.6rem;
+	overflow: hidden;
+	border: 1px solid var(--sof-method-card-border-color);
+	padding: 1.5rem;
+}
+
+#methods.loop-include .entry-content {
+	margin: 0;
+	padding: 1rem;
+	padding-top: 0.5rem;
+}
+
+#methods.loop-include .entry-content h3 {
+	margin: 0;
+	font-size: 1.4rem;
+}
+
+#methods.loop-include .entry-content h3 a {
+	color: var(--sof-method-card-heading-color);
+	text-decoration: none;
+}
+
+#methods.loop-include .entry-content p {
+	margin: 0;
+	margin-top: 0.5rem;
+}
+
+#methods.loop-include .entry-content .loop-page-subheading p {
+	color: var(--sof-method-card-subheading-color);
+	font-size: 0.9rem;
+	font-style: italic;
+	margin-bottom: 1.2rem;
+}
+
+#methods.loop-include .entry-content .loop-page-sub-excerpt p {
+	color: var(--sof-method-card-subheading-color);
+	font-size: 0.9rem;
+	font-style: italic;
+}
+
+
+
+/*--------------------------------------------------------------
+## Gateways Loop styles
+--------------------------------------------------------------*/
+
+#gateways {
+	background-color: var(--sof-gateway-card-container-bg-color);
+}
+
+/* Loop post. */
+#gateways.loop-include .hentry {
+	background-color: var(--sof-gateway-card-bg-color);
+	border-radius: 0.6rem;
+	overflow: hidden;
+	border: 1px solid var(--sof-gateway-card-border-color);
+	padding: 1.5rem;
+}
+
+#gateways.loop-include .entry-content {
+	margin: 0;
+	padding: 1rem;
+	padding-top: 0.5rem;
+}
+
+#gateways.loop-include .entry-content h3 {
+	margin: 0;
+	font-size: 1.4rem;
+}
+
+#gateways.loop-include .entry-content h3 a {
+	color: var(--sof-gateway-card-heading-color);
+	text-decoration: none;
+}
+
+#gateways.loop-include .entry-content p {
+	margin: 0;
+	margin-top: 0.5rem;
+}
+
+#gateways.loop-include .entry-content .loop-page-subheading p {
+	color: var(--sof-gateway-card-subheading-color);
+	font-size: 0.9rem;
+	font-style: italic;
+	margin-bottom: 1.2rem;
+}
+
+#gateways.loop-include .entry-content .loop-page-sub-excerpt p {
+	color: var(--sof-gateway-card-subheading-color);
+	font-size: 0.9rem;
+	font-style: italic;
+}
+
+
+
+/*--------------------------------------------------------------
+## SOF Organisations Loop styles
+--------------------------------------------------------------*/
+
+#sof-orgs {
+	background-color: var(--sof-sof-org-card-container-bg-color);
+}
+
+/* Loop post. */
+#sof-orgs.loop-include .hentry {
+	border-radius: 0.6rem;
+	overflow: hidden;
+	border: 1px solid var(--sof-sof-org-card-border-color);
+	background-color: var(--sof-sof-org-card-bg-color);
+}
+
+#sof-orgs.loop-include .sof-org-feature-image {
+	line-height: 0;
+	display: block;
+}
+
+#sof-orgs.loop-include .sof-org-feature-image a {
+	line-height: 0;
+	display: block;
+}
+
+#sof-orgs.loop-include .sof-org-feature-image .country-flag {
+	width: 25%;
+	margin: 1em;
+}
+
+#sof-orgs.loop-include .entry-content {
+	margin: 0;
+	padding: 1rem;
+	padding-top: 0.5rem;
+}
+
+#sof-orgs.loop-include .entry-content h3 {
+	margin: 0;
+	font-size: 1.4rem;
+}
+
+#sof-orgs.loop-include .entry-content h3 a {
+	color: var(--sof-sof-org-card-heading-color);
+	text-decoration: none;
+}
+
+#sof-orgs.loop-include .entry-content p {
+	margin: 0;
+	margin-top: 0.5rem;
+	font-size: 0.9rem;
 }
 
 
