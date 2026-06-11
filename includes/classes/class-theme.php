@@ -122,6 +122,9 @@ class The_Ball_v2_Denmark_Theme {
 		// Set up this theme's defaults.
 		add_action( 'after_setup_theme', [ $this, 'theme_setup' ] );
 
+		// Add Javascript after parent theme.
+		add_action( 'wp_enqueue_scripts', [ $this, 'javascript_enqueue' ], 100 );
+
 	}
 
 	/**
@@ -141,5 +144,24 @@ class The_Ball_v2_Denmark_Theme {
 		);
 
 	}
+
+	/**
+	 * Augment the Base Theme's setup function.
+	 *
+	 * @since 1.0.0
+	 */
+	public function javascript_enqueue() {
+
+		// Custom script.
+		wp_enqueue_script(
+			'the-ball-v2-dk-custom',
+			get_stylesheet_directory_uri() . '/assets/js/custom.js',
+			[ 'the-ball-v2-custom' ],
+			THE_BALL_V2_DK_VERSION,
+			false
+		);
+
+	}
+
 
 }

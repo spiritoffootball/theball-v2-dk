@@ -73,3 +73,23 @@ function the_ball_v2_dk_styles() {
 }
 
 add_action( 'wp_enqueue_scripts', 'the_ball_v2_dk_styles', 60 );
+
+/**
+ * Filters the list of CSS class names for the current post.
+ *
+ * @since 1.0.0
+ *
+ * @param string[] $classes   An array of post class names.
+ * @param string[] $css_class An array of additional class names added to the post.
+ * @param int      $post_id   The post ID.
+ * @return string[] $classes The modified array of post class names.
+ */
+function the_ball_v2_dk_post_class_fade_in( $classes, $css_class, $post_id ) {
+
+	// Add "fade-in" class.
+	$classes[] = 'fade-in';
+
+	// --<
+	return $classes;
+
+}

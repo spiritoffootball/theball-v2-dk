@@ -11,6 +11,7 @@
 
 	--sof-color-forest: #1A3A2A;
 	--sof-color-thicket: #214634;
+	--sof-color-shrub: #153120;
 	--sof-color-grass: #2D6A4F;
 	--sof-color-lime: #52B788;
 	--sof-color-bright: #40916C;
@@ -53,7 +54,7 @@
 
 	/* Activities Loop cards. */
 	--sof-activity-card-container-bg-color: var(--sof-color-thicket);
-	--sof-activity-card-bg-color: var(--sof-color-charcoal);
+	--sof-activity-card-bg-color: var(--sof-color-shrub);
 	--sof-activity-card-border-color: var(--sof-color-grass);
 	--sof-activity-card-heading-color: var(--sof-color-lime);
 

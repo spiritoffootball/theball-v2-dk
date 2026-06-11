@@ -18,6 +18,9 @@ $loop_parent = get_page_by_path( 'metoden', OBJECT, 'page' );
 // Skip rendering if we can't find the parent page.
 if ( $loop_parent instanceof WP_Post ) :
 
+	// Add "fade-in" class to Post classes.
+	add_filter( 'post_class', 'the_ball_v2_dk_post_class_fade_in', 10, 3 );
+
 	// Define query args.
 	$loop_include_args = [
 		'post_type'      => 'page',
@@ -83,6 +86,9 @@ if ( $loop_parent instanceof WP_Post ) :
 		<?php
 
 	endif;
+
+	// Remove Post class filter.
+	remove_filter( 'post_class', 'the_ball_v2_dk_post_class_fade_in' );
 
 endif;
 
