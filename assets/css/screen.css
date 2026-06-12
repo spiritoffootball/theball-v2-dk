@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 #primary .has-post-thumbnail .entry-header h2 {
 	font-family: serif;
 	color: var(--sof-color-sand);
+	padding: 2.9em 0.5em 1.9em 0.5em;
 /* 	text-shadow: 0 0 10px rgb(10 9 52 / 75%); */
 }
 
@@ -57,9 +58,9 @@ h1, h2, h3, h4, h5, h6 {
 ## Homepage style overrides
 --------------------------------------------------------------*/
 
-/* Do not show caption on homepage. */
+/* Show site tagline on homepage. */
 .home .feature-image-caption {
-/* 	visibility: hidden; */
+	text-shadow: 0 0 10px #0a0933;
 }
 
 
