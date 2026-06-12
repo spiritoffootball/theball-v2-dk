@@ -11,7 +11,7 @@
 defined( 'ABSPATH' ) || exit;
 
 // Set our version here.
-define( 'THE_BALL_V2_DK_VERSION', '1.0.0a' );
+define( 'THE_BALL_V2_DK_VERSION', '1.0.0' );
 
 /**
  * Bootstraps theme object and returns instance.
