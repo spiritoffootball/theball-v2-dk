@@ -79,6 +79,10 @@ get_header();
 	<?php load_template( $statement_loop ); ?>
 <?php endif; */ ?>
 
+<?php if ( $contact_template = locate_template( 'template-parts/content-let-us-play-mini.php' ) ) : ?>
+	<?php load_template( $contact_template ); ?>
+<?php endif; ?>
+
 <?php
 
 get_sidebar();

@@ -78,6 +78,11 @@
 	--sof-sof-org-card-border-color: var(--sof-color-grass);
 	--sof-sof-org-card-heading-color: var(--sof-color-lime);
 
+	/* Contact Page card. */
+	--sof-contact-card-container-bg-color: var(--sof-color-thicket);
+	--sof-contact-card-heading-color: var(--sof-color-lime);
+	--sof-contact-form-bg-color: var(--sof-color-forest);
+	--sof-contact-form-border-color: var(--sof-color-grass);
 
 
 

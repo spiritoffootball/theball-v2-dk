@@ -437,6 +437,115 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*--------------------------------------------------------------
+## Page as Include common styles
+--------------------------------------------------------------*/
+
+.entry-content h3.include-eyebrow-title {
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	margin-top: 3rem;
+	margin-bottom: 0.5rem;
+	color: var(--sof-color-lime);
+	font-family: sans-serif;
+}
+
+.entry-content h3.include-eyebrow-title::before {
+	content: '';
+	display: inline-block;
+	width: 1.5rem;
+	height: 1.5px;
+	background: var(--sof-color-lime);
+	margin-right: 0.5rem;
+	vertical-align: middle;
+}
+
+
+
+/*--------------------------------------------------------------
+## Contact page as Include styles
+--------------------------------------------------------------*/
+
+#sof-contact {
+	background-color: var(--sof-contact-card-container-bg-color);
+	--sof-logo-svg-color: var(--sof-color-lime);
+}
+
+#sof-contact .contact-feature-image {
+	margin-top: 2rem;
+}
+
+#sof-contact .entry-content h3.include-eyebrow-title {
+	margin-top: 1rem;
+}
+
+/* Item post. */
+#sof-contact .hentry {
+	background-color: transparent;
+	text-align: center;
+}
+
+/* SOF logo. */
+#sof-contact .contact-feature-image .sof-logo-svg {
+	width: 6rem;
+	height: 6rem;
+}
+
+
+#sof-contact .entry-content {
+	width: 60%;
+	margin: 1rem auto;
+	padding: 1rem;
+	padding-top: 0.5rem;
+}
+
+#sof-contact .entry-content h2 {
+	font-size: 2rem;
+	color: var(--sof-contact-card-heading-color);
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#sof-contact .entry-content p {
+	margin: 0;
+	margin-top: 0.5rem;
+}
+
+#sof-contact .entry-content form {
+	margin: 1rem 0;
+	padding: 1rem;
+	text-align: left;
+    border-radius: 0.6rem;
+    overflow: hidden;
+    border: 1px solid var(--sof-contact-form-border-color);
+    background-color: var(--sof-contact-form-bg-color);
+	--jetpack--contact-form--error-color: #ff4848;
+	--jetpack--contact-form--input-height: 45px;
+}
+
+#sof-contact .entry-content form.contact-form .grunion-field {
+    background-color: var(--sof-color-charcoal);
+    color: var(--sof-color-offwhite);
+    padding: 8px;
+}
+
+#sof-contact .entry-content form.contact-form textarea.grunion-field {
+    padding: 8px;
+}
+
+#sof-contact .entry-content form.contact-form button {
+	margin: 0.5rem 0;
+	text-shadow: none;
+    background-color: var(--sof-color-grass);
+}
+
+#sof-contact .entry-content form.contact-form button:hover {
+    background-color: var(--sof-color-bright);
+    box-shadow: none;
+}
+
+
+
+/*--------------------------------------------------------------
 ## People page style overrides
 --------------------------------------------------------------*/
 
